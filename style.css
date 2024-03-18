@@ -1,0 +1,175 @@
+.one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: char1;
+    animation-duration: 2s;
+    position: absolute;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.two {
+    position: absolute;
+    top: 180px;
+    right: 0;
+    animation-name: car2;
+    animation-duration: 2s;
+    position: absolute;
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.three {
+    position: absolute;
+    margin-top: 340px;
+    left: 0;
+    animation-name: car3;
+    animation-duration: 2s;
+    position: absolute;
+    animation-iteration-count: 1;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.five {
+    position: absolute;
+    margin-top: 690px;
+    left: 0;
+    animation-name: car5;
+    animation-duration: 2s;
+    position: absolute;
+    animation-iteration-count: 1;
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.four {
+    position: absolute;
+    margin-top: 520px;
+    right: 0;
+    animation-name: car4;
+    animation-duration: 2s;
+    position: absolute;
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.six {
+    position: absolute;
+    margin-top: 900px;
+    right: 0;
+    animation-name: car6;
+    animation-duration: 2s;
+    position: absolute;
+    animation-iteration-count: 1;
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes char1 {
+    0% {
+        top: 0;
+        left: 300px;
+
+
+    }
+
+    50% {
+        top: 0;
+        left: 500px;
+
+    }
+
+    100% {
+        top: 0;
+        left: 900px;
+
+    }
+}
+
+@keyframes car2 {
+    0% {
+        right: 300px;
+    }
+
+    50% {
+        right: 500px;
+    }
+
+    100% {
+        right: 900px;
+    }
+}
+@keyframes car6 {
+    0% {
+        right: 300px;
+    }
+
+    50% {
+        right: 500px;
+    }
+
+    100% {
+        right: 900px;
+    }
+}
+
+@keyframes car3 {
+    0% {
+        left: 300px;
+
+
+    }
+
+    50% {
+        left: 500px;
+
+    }
+
+    100% {
+        left: 900px;
+
+    }
+}
+
+@keyframes car4 {
+    0% {
+        right: 300px;
+    }
+
+    50% {
+        right: 500px;
+    }
+
+    100% {
+        right: 900px;
+    }
+}
+
+@keyframes car5 {
+    0% {
+        left: 300px;
+
+
+    }
+
+    50% {
+        left: 500px;
+
+    }
+
+    100% {
+        left: 900px;
+
+    }
+}
